@@ -312,7 +312,7 @@ Open your `package.json` file and add the following scripts:
 
 ```json
 {
-	"type", "module",
+	"type": "module",
    	"scripts": {
   		"dev": "node src/index.ts",
   		"start": "NODE_ENV=production node src/index.js"
